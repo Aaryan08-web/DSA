@@ -2,6 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         int a = x;
+        // long is datatype long a = 100000 , long long a = 9999999999
         long reverse = 0;
 
         if(x<0){
